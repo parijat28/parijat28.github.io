@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+	
+		<title>Happy birthday !!</title>
+		
+		
+		<link rel="stylesheet" type="text/css" media="all" href="static/style.css">
+		<link rel="stylesheet" type="text/css" media="all" href="static/layout.css">
+		<link rel="stylesheet" type="text/css" media="all" href="static/reset.css">
+		<link rel="stylesheet" type="text/css" media="all" href="static/prettify-sunburst-customized.css">
+		<script type="text/javascript" async="" src="static/ga.js"></script>
+		<script type="text/javascript" src="static/jquery.js"></script>
+		<script type="text/javascript" src="static/jquery.carouFredSel.js"></script>
+		<script type="text/javascript" src="static/site.js"></script>
+		<script type="text/javascript" src="static/prettify.js"></script>
+		<script type="text/javascript" src="static/prettify.css.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				prettyPrint();
+			});
+		</script>
+		<script type="text/javascript">
+			
+			jQuery(window).scroll(function(){
+   				var fromTopPx = 100;
+    			var scrolledFromtop = jQuery(window).scrollTop();
+    			if(scrolledFromtop <= (7*fromTopPx)){
+        			jQuery('body').removeClass();
+        			jQuery('body').addClass('scrolled1');
+        			jQuery('#box1').removeClass();
+        			jQuery('#box1').addClass('text-box');
+        			jQuery('#box2,#box3,#box4,#box5,#box6,#box7,#box8,#box9,#box10,#box11,#box12,#box13,#box14,#box15,#box16,#box17,#box18,#box19,#box20,#box21,#box22,#box23,#box24,#box25').removeClass();
+        			jQuery('#box2,#box3,#box4,#box5,#box6,#box7,#box8,#box9,#box10,#box11,#box12,#box13,#box14,#box15,#box16,#box17,#box18,#box19,#box20,#box21,#box22,#box23,#box24,#box25').addClass('text-box-scroll');
+    			}
+    			else if((scrolledFromtop > (7*fromTopPx)) && (scrolledFromtop <= (14*fromTopPx)) ){
+        			jQuery('body').removeClass();
+        			jQuery('body').addClass('scrolled2');
+        			jQuery('#box1,#box3,#box4,#box5,#box6,#box7,#box8,#box9,#box10,#box11,#box12,#box13,#box14,#box15,#box16,#box17,#box18,#box19,#box20,#box21,#box22,#box23,#box24,#box25').removeClass();
+        			jQuery('#box1,#box3,#box4,#box5,#box6,#box7,#box8,#box9,#box10,#box11,#box12,#box13,#box14,#box15,#box16,#box17,#box18,#box19,#box20,#box21,#box22,#box23,#box24,#box25').addClass('text-box-scroll');
+        			jQuery('#box2').removeClass();
+        			jQuery('#box2').addClass('text-box');
+    			}
+    			else if((scrolledFromtop > (14*fromTopPx)) && (scrolledFromtop <= (21*fromTopPx)) ){
+        			jQuery('body').removeClass();
+        			jQuery('body').addClass('scrolled3');
+        			jQuery('#box1,#box2,#box4,#box5,#box6,#box7,#box8,#box9,#box10,#box11,#box12,#box13,#box14,#box15,#box16,#box17,#box18,#box19,#box20,#box21,#box22,#box23,#box24,#box25').removeClass();
+        			jQuery('#box1,#box2,#box4,#box5,#box6,#box7,#box8,#box9,#box10,#box11,#box12,#box13,#box14,#box15,#box16,#box17,#box18,#box19,#box20,#box21,#box22,#box23,#box24,#box25').addClass('text-box-scroll');
+        			jQuery('#box3').removeClass();
+        			jQuery('#box3').addClass('text-box');
+    			}
+    			else if((scrolledFromtop > (21*fromTopPx)) && (scrolledFromtop <= (28*fromTopPx)) ){
+        			jQuery('body').removeClass();
+        			jQuery('body').addClass('scrolled4');
+        			jQuery('#box1,#box3,#box2,#box5,#box6,#box7,#box8,#box9,#box10,#box11,#box12,#box13,#box14,#box15,#box16,#box17,#box18,#box19,#box20,#box21,#box22,#box23,#box24,#box25').removeClass();
+        			jQuery('#box1,#box3,#box2,#box5,#box6,#box7,#box8,#box9,#box10,#box11,#box12,#box13,#box14,#box15,#box16,#box17,#box18,#box19,#box20,#box21,#box22,#box23,#box24,#box25').addClass('text-box-scroll');
+        			jQuery('#box4').removeClass();
+        			jQuery('#box4').addClass('text-box');
+    			}
+    			else if((scrolledFromtop > (28*fromTopPx)) && (scrolledFromtop <= (35*fromTopPx)) ){
+        			jQuery('body').removeClass();
+        			jQuery('body').addClass('scrolled5');
+        			jQuery('#box1,#box3,#box4,#box2,#box6,#box7,#box8,#box9,#box10,#box11,#box12,#box13,#box14,#box15,#box16,#box17,#box18,#box19,#box20,#box21,#box22,#box23,#box24,#box25').removeClass();
+        			jQuery('#box1,#box3,#box4,#box2,#box6,#box7,#box8,#box9,#box10,#box11,#box12,#box13,#box14,#box15,#box16,#box17,#box18,#box19,#box20,#box21,#box22,#box23,#box24,#box25').addClass('text-box-scroll');
+        			jQuery('#box5').removeClass();
+        			jQuery('#box5').addClass('text-box');
+    			}
+    			else if((scrolledFromtop > (35*fromTopPx)) && (scrolledFromtop <= (42*fromTopPx)) ){
+        			jQuery('body').removeClass();
+        			jQuery('body').addClass('scrolled6');
+        			jQuery('#box1,#box3,#box4,#box5,#box2,#box7,#box8,#box9,#box10,#box11,#box12,#box13,#box14,#box15,#box16,#box17,#box18,#box19,#box20,#box21,#box22,#box23,#box24,#box25').removeClass();
+        			jQuery('#box1,#box3,#box4,#box5,#box2,#box7,#box8,#box9,#box10,#box11,#box12,#box13,#box14,#box15,#box16,#box17,#box18,#box19,#box20,#box21,#box22,#box23,#box24,#box25').addClass('text-box-scroll');
+        			jQuery('#box6').removeClass();
+        			jQuery('#box6').addClass('text-box');
+    			}
+    			else if((scrolledFromtop > (42*fromTopPx)) && (scrolledFromtop <= (49*fromTopPx)) ){
+        			jQuery('body').removeClass();
+        			jQuery('body').addClass('scrolled7');
+        			jQuery('#box1,#box3,#box4,#box5,#box6,#box2,#box8,#box9,#box10,#box11,#box12,#box13,#box14,#box15,#box16,#box17,#box18,#box19,#box20,#box21,#box22,#box23,#box24,#box25').removeClass();
+        			jQuery('#box1,#box3,#box4,#box5,#box6,#box2,#box8,#box9,#box10,#box11,#box12,#box13,#box14,#box15,#box16,#box17,#box18,#box19,#box20,#box21,#box22,#box23,#box24,#box25').addClass('text-box-scroll');
+        			jQuery('#box7').removeClass();
+        			jQuery('#box7').addClass('text-box');
+    			}
+    			else if((scrolledFromtop > (49*fromTopPx)) && (scrolledFromtop <= (56*fromTopPx)) ){
+        			jQuery('body').removeClass();
+        			jQuery('body').addClass('scrolled8');
+        			jQuery('#box1,#box3,#box4,#box5,#box6,#box7,#box2,#box9,#box10,#box11,#box12,#box13,#box14,#box15,#box16,#box17,#box18,#box19,#box20,#box21,#box22,#box23,#box24,#box25').removeClass();
+        			jQuery('#box1,#box3,#box4,#box5,#box6,#box7,#box2,#box9,#box10,#box11,#box12,#box13,#box14,#box15,#box16,#box17,#box18,#box19,#box20,#box21,#box22,#box23,#box24,#box25').addClass('text-box-scroll');
+        			jQuery('#box8').removeClass();
+        			jQuery('#box8').addClass('text-box');
+    			}
+    			else if((scrolledFromtop > (56*fromTopPx)) && (scrolledFromtop <= (63*fromTopPx)) ){
+        			jQuery('body').removeClass();
+        			jQuery('body').addClass('scrolled9');
+        			jQuery('#box1,#box3,#box4,#box5,#box6,#box7,#box8,#box2,#box10,#box11,#box12,#box13,#box14,#box15,#box16,#box17,#box18,#box19,#box20,#box21,#box22,#box23,#box24,#box25').removeClass();
+        			jQuery('#box1,#box3,#box4,#box5,#box6,#box7,#box8,#box2,#box10,#box11,#box12,#box13,#box14,#box15,#box16,#box17,#box18,#box19,#box20,#box21,#box22,#box23,#box24,#box25').addClass('text-box-scroll');
+        			jQuery('#box9').removeClass();
+        			jQuery('#box9').addClass('text-box');
+    			}
+    			else if((scrolledFromtop > (63*fromTopPx)) && (scrolledFromtop <= (70*fromTopPx)) ){
+        			jQuery('body').removeClass();
+        			jQuery('body').addClass('scrolled10');
+        			jQuery('#box1,#box3,#box4,#box5,#box6,#box7,#box8,#box2,#box9,#box11,#box12,#box13,#box14,#box15,#box16,#box17,#box18,#box19,#box20,#box21,#box22,#box23,#box24,#box25').removeClass();
+        			jQuery('#box1,#box3,#box4,#box5,#box6,#box7,#box8,#box2,#box9,#box11,#box12,#box13,#box14,#box15,#box16,#box17,#box18,#box19,#box20,#box21,#box22,#box23,#box24,#box25').addClass('text-box-scroll');
+        			jQuery('#box10').removeClass();
+        			jQuery('#box10').addClass('text-box');
+    			}
+    			else if((scrolledFromtop > (70*fromTopPx)) && (scrolledFromtop <= (77*fromTopPx)) ){
+        			jQuery('body').removeClass();
+        			jQuery('body').addClass('scrolled11');
+        			jQuery('#box1,#box3,#box4,#box5,#box6,#box7,#box8,#box9,#box2,#box10,#box11,#box12,#box13,#box14,#box15,#box16,#box17,#box18,#box19,#box20,#box21,#box22,#box23,#box24,#box25').removeClass();
+        			jQuery('#box1,#box3,#box4,#box5,#box6,#box7,#box9,#box8,#box2,#box10,#box11,#box12,#box13,#box14,#box15,#box16,#box17,#box18,#box19,#box20,#box21,#box22,#box23,#box24,#box25').addClass('text-box-scroll');
+        			jQuery('#box11').removeClass();
+        			jQuery('#box11').addClass('text-box');
+    			}
+    			else if((scrolledFromtop > (77*fromTopPx)) && (scrolledFromtop <= (84*fromTopPx)) ){
+        			jQuery('body').removeClass();
+        			jQuery('body').addClass('scrolled12');
+        			jQuery('#box1,#box3,#box4,#box5,#box6,#box9,#box7,#box8,#box2,#box10,#box11,#box12,#box13,#box14,#box15,#box16,#box17,#box18,#box19,#box20,#box21,#box22,#box23,#box24,#box25').removeClass();
+        			jQuery('#box1,#box3,#box4,#box5,#box9,#box6,#box7,#box8,#box2,#box10,#box11,#box12,#box13,#box14,#box15,#box16,#box17,#box18,#box19,#box20,#box21,#box22,#box23,#box24,#box25').addClass('text-box-scroll');
+        			jQuery('#box12').removeClass();
+        			jQuery('#box12').addClass('text-box');
+    			}
+    			else if((scrolledFromtop > (84*fromTopPx)) && (scrolledFromtop <= (91*fromTopPx)) ){
+        			jQuery('body').removeClass();
+        			jQuery('body').addClass('scrolled13');
+        			jQuery('#box1,#box3,#box4,#box9,#box5,#box6,#box7,#box8,#box2,#box10,#box11,#box12,#box13,#box14,#box15,#box16,#box17,#box18,#box19,#box20,#box21,#box22,#box23,#box24,#box25').removeClass();
+        			jQuery('#box1,#box3,#box9,#box4,#box5,#box6,#box7,#box8,#box2,#box10,#box11,#box12,#box13,#box14,#box15,#box16,#box17,#box18,#box19,#box20,#box21,#box22,#box23,#box24,#box25').addClass('text-box-scroll');
+        			jQuery('#box13').removeClass();
+        			jQuery('#box13').addClass('text-box');
+    			}
+    			else if((scrolledFromtop > (91*fromTopPx)) && (scrolledFromtop <= (98*fromTopPx)) ){
+        			jQuery('body').removeClass();
+        			jQuery('body').addClass('scrolled14');
+        			jQuery('#box1,#box3,#box4,#box5,#box6,#box7,#box8,#box2,#box10,#box11,#box9,#box12,#box13,#box14,#box15,#box16,#box17,#box18,#box19,#box20,#box21,#box22,#box23,#box24,#box25').removeClass();
+        			jQuery('#box1,#box3,#box4,#box5,#box6,#box7,#box8,#box2,#box10,#box9,#box11,#box12,#box13,#box14,#box15,#box16,#box17,#box18,#box19,#box20,#box21,#box22,#box23,#box24,#box25').addClass('text-box-scroll');
+        			jQuery('#box14').removeClass();
+        			jQuery('#box14').addClass('text-box-1');
+    			}
+    			else if((scrolledFromtop > (98*fromTopPx)) && (scrolledFromtop <= (105*fromTopPx)) ){
+        			jQuery('body').removeClass();
+        			jQuery('body').addClass('scrolled15');
+        			jQuery('#box1,#box3,#box4,#box5,#box6,#box7,#box8,#box2,#box9,#box10,#box11,#box12,#box13,#box14,#box15,#box16,#box17,#box18,#box19,#box20,#box21,#box22,#box23,#box24,#box25').removeClass();
+        			jQuery('#box1,#box3,#box4,#box5,#box6,#box7,#box8,#box9,#box2,#box10,#box11,#box12,#box13,#box14,#box15,#box16,#box17,#box18,#box19,#box20,#box21,#box22,#box23,#box24,#box25').addClass('text-box-scroll');
+        			jQuery('#box15').removeClass();
+        			jQuery('#box15').addClass('text-box');
+    			}
+    			else if((scrolledFromtop > (105*fromTopPx)) && (scrolledFromtop <= (112*fromTopPx)) ){
+        			jQuery('body').removeClass();
+        			jQuery('body').addClass('scrolled16');
+        			jQuery('#box1,#box3,#box4,#box5,#box6,#box7,#box9,#box8,#box2,#box10,#box11,#box12,#box13,#box14,#box15,#box16,#box17,#box18,#box19,#box20,#box21,#box22,#box23,#box24,#box25').removeClass();
+        			jQuery('#box1,#box3,#box4,#box5,#box6,#box9,#box7,#box8,#box2,#box10,#box11,#box12,#box13,#box14,#box15,#box16,#box17,#box18,#box19,#box20,#box21,#box22,#box23,#box24,#box25').addClass('text-box-scroll');
+        			jQuery('#box16').removeClass();
+        			jQuery('#box16').addClass('text-box');
+    			}
+    			else if((scrolledFromtop > (112*fromTopPx)) && (scrolledFromtop <= (119*fromTopPx)) ){
+        			jQuery('body').removeClass();
+        			jQuery('body').addClass('scrolled17');
+        			jQuery('#box1,#box3,#box4,#box5,#box9,#box6,#box7,#box8,#box2,#box10,#box11,#box12,#box13,#box14,#box15,#box16,#box17,#box18,#box19,#box20,#box21,#box22,#box23,#box24,#box25').removeClass();
+        			jQuery('#box1,#box3,#box4,#box9,#box5,#box6,#box7,#box8,#box2,#box10,#box11,#box12,#box13,#box14,#box15,#box16,#box17,#box18,#box19,#box20,#box21,#box22,#box23,#box24,#box25').addClass('text-box-scroll');
+        			jQuery('#box17').removeClass();
+        			jQuery('#box17').addClass('text-box');
+    			}
+    			else if((scrolledFromtop > (119*fromTopPx)) && (scrolledFromtop <= (126*fromTopPx)) ){
+        			jQuery('body').removeClass();
+        			jQuery('body').addClass('scrolled18');
+        			jQuery('#box1,#box3,#box9,#box4,#box5,#box6,#box7,#box8,#box2,#box10,#box11,#box12,#box13,#box14,#box15,#box16,#box17,#box18,#box19,#box20,#box21,#box22,#box23,#box24,#box25').removeClass();
+        			jQuery('#box1,#box3,#box9,#box4,#box5,#box6,#box7,#box8,#box2,#box10,#box11,#box12,#box13,#box14,#box15,#box16,#box17,#box18,#box19,#box20,#box21,#box22,#box23,#box24,#box25').addClass('text-box-scroll');
+        			jQuery('#box18').removeClass();
+        			jQuery('#box18').addClass('text-box');
+    			}
+    			else if((scrolledFromtop > (126*fromTopPx)) && (scrolledFromtop <= (133*fromTopPx)) ){
+        			jQuery('body').removeClass();
+        			jQuery('body').addClass('scrolled19');
+        			jQuery('#box1,#box9,#box3,#box4,#box5,#box6,#box7,#box8,#box2,#box10,#box11,#box12,#box13,#box14,#box15,#box16,#box17,#box18,#box19,#box20,#box21,#box22,#box23,#box24,#box25').removeClass();
+        			jQuery('#box1,#box3,#box9,#box4,#box5,#box6,#box7,#box8,#box2,#box10,#box11,#box12,#box13,#box14,#box15,#box16,#box17,#box18,#box19,#box20,#box21,#box22,#box23,#box24,#box25').addClass('text-box-scroll');
+        			jQuery('#box19').removeClass();
+        			jQuery('#box19').addClass('text-box');
+    			}
+    			else if((scrolledFromtop > (133*fromTopPx)) && (scrolledFromtop <= (140*fromTopPx)) ){
+        			jQuery('body').removeClass();
+        			jQuery('body').addClass('scrolled20');
+        			jQuery('#box1,#box9,#box3,#box4,#box5,#box6,#box7,#box8,#box2,#box10,#box11,#box12,#box13,#box14,#box15,#box16,#box17,#box18,#box19,#box20,#box21,#box22,#box23,#box24,#box25').removeClass();
+        			jQuery('#box1,#box3,#box9,#box4,#box5,#box6,#box7,#box8,#box2,#box10,#box11,#box12,#box13,#box14,#box15,#box16,#box17,#box18,#box19,#box20,#box21,#box22,#box23,#box24,#box25').addClass('text-box-scroll');
+        			jQuery('#box20').removeClass();
+        			jQuery('#box20').addClass('text-box');
+    			}
+    			else if((scrolledFromtop > (140*fromTopPx)) && (scrolledFromtop <= (147*fromTopPx)) ){
+        			jQuery('body').removeClass();
+        			jQuery('body').addClass('scrolled21');
+        			jQuery('#box1,#box9,#box3,#box4,#box5,#box6,#box7,#box8,#box2,#box10,#box11,#box12,#box13,#box14,#box15,#box16,#box17,#box18,#box19,#box20,#box21,#box22,#box23,#box24,#box25').removeClass();
+        			jQuery('#box1,#box3,#box9,#box4,#box5,#box6,#box7,#box8,#box2,#box10,#box11,#box12,#box13,#box14,#box15,#box16,#box17,#box18,#box19,#box20,#box21,#box22,#box23,#box24,#box25').addClass('text-box-scroll');
+        			jQuery('#box21').removeClass();
+        			jQuery('#box21').addClass('text-box');
+    			}
+    			else if((scrolledFromtop > (147*fromTopPx)) && (scrolledFromtop <= (154*fromTopPx)) ){
+        			jQuery('body').removeClass();
+        			jQuery('body').addClass('scrolled22');
+        			jQuery('#box1,#box9,#box3,#box4,#box5,#box6,#box7,#box8,#box2,#box10,#box11,#box12,#box13,#box14,#box15,#box16,#box17,#box18,#box19,#box20,#box21,#box22,#box23,#box24,#box25').removeClass();
+        			jQuery('#box1,#box3,#box9,#box4,#box5,#box6,#box7,#box8,#box2,#box10,#box11,#box12,#box13,#box14,#box15,#box16,#box17,#box18,#box19,#box20,#box21,#box22,#box23,#box24,#box25').addClass('text-box-scroll');
+        			jQuery('#box22').removeClass();
+        			jQuery('#box22').addClass('text-box');
+    			}
+    			else if((scrolledFromtop > (154*fromTopPx)) && (scrolledFromtop <= (161*fromTopPx)) ){
+        			jQuery('body').removeClass();
+        			jQuery('body').addClass('scrolled23');
+        			jQuery('#box1,#box9,#box3,#box4,#box5,#box6,#box7,#box8,#box2,#box10,#box11,#box12,#box13,#box14,#box15,#box16,#box17,#box18,#box19,#box20,#box21,#box22,#box23,#box24,#box25').removeClass();
+        			jQuery('#box1,#box3,#box9,#box4,#box5,#box6,#box7,#box8,#box2,#box10,#box11,#box12,#box13,#box14,#box15,#box16,#box17,#box18,#box19,#box20,#box21,#box22,#box23,#box24,#box25').addClass('text-box-scroll');
+        			jQuery('#box23').removeClass();
+        			jQuery('#box23').addClass('text-box');
+    			}
+    			else if((scrolledFromtop > (161*fromTopPx)) && (scrolledFromtop <= (168*fromTopPx)) ){
+        			jQuery('body').removeClass();
+        			jQuery('body').addClass('scrolled24');
+        			jQuery('#box1,#box9,#box3,#box4,#box5,#box6,#box7,#box8,#box2,#box10,#box11,#box12,#box13,#box14,#box15,#box16,#box17,#box18,#box19,#box20,#box21,#box22,#box23,#box24,#box25').removeClass();
+        			jQuery('#box1,#box3,#box9,#box4,#box5,#box6,#box7,#box8,#box2,#box10,#box11,#box12,#box13,#box14,#box15,#box16,#box17,#box18,#box19,#box20,#box21,#box22,#box23,#box24,#box25').addClass('text-box-scroll');
+        			jQuery('#box24').removeClass();
+        			jQuery('#box24').addClass('text-box');
+    			}
+    			else if((scrolledFromtop > (168*fromTopPx)) && (scrolledFromtop <= (175*fromTopPx)) ){
+        			jQuery('body').removeClass();
+        			jQuery('body').addClass('scrolled25');
+        			jQuery('#box1,#box9,#box3,#box4,#box5,#box6,#box7,#box8,#box2,#box10,#box11,#box12,#box13,#box14,#box15,#box16,#box17,#box18,#box19,#box20,#box21,#box22,#box23,#box24,#box25').removeClass();
+        			jQuery('#box1,#box3,#box9,#box4,#box5,#box6,#box7,#box8,#box2,#box10,#box11,#box12,#box13,#box14,#box15,#box16,#box17,#box18,#box19,#box20,#box21,#box22,#box23,#box24,#box25').addClass('text-box-scroll');
+        			jQuery('#box25').removeClass();
+        			jQuery('#box25').addClass('text-box');
+    			}
+
+    			else{
+        			jQuery('body').removeClass();
+    			}
+			});
+			$(window).bind("scroll", function() {
+            if ($(this).scrollTop() > 200) {
+                $("#wrapper").addClass('scroll');
+            }
+            else{
+            	$("#wrapper").removeClass('scroll');	
+            }
+        });
+			$(window).bind("scroll", function() {
+            if ($(this).scrollTop() > 200) {
+                $("#box1").addClass('scroll');
+            }
+            else{
+            	$("#wrapper").removeClass('scroll');	
+            }
+        });
+
+
+			$(function() {
+				$('#carousel').carouFredSel({
+					prev: '#prev',
+					next: '#next',
+					auto: {
+						button: '#play',
+						progress: '#timer',
+						pauseOnEvent: 'resume'
+					},
+					scroll: {
+						fx: 'fade'
+					}
+				});
+				$('#wrapper').hover(function() {
+					$('#navi').stop().animate({
+						bottom: 0
+					});
+				}, function() {
+					$('#navi').stop().animate({
+						bottom: -60
+					});
+				});
+
+			});
+		</script>
+
+		
+		<style type="text/css" media="all">
+		@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 100;
+  src: local('Raleway Thin'), local('Raleway-Thin'), url(static/RJMlAoFXXQEzZoMSUteGWFtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+		#preload-01 { background: url(static/0.jpg) no-repeat -9999px -9999px; position:fixed;}
+		#preload-02 { background: url(static/1.jpg) no-repeat -9999px -9999px; position:fixed;}
+		#preload-03 { background: url(static/2.jpg) no-repeat -9999px -9999px; position:fixed;}
+		#preload-04 { background: url(static/3.jpg) no-repeat -9999px -9999px; position:fixed;}
+		#preload-05 { background: url(static/4.jpg) no-repeat -9999px -9999px; position:fixed;}
+		#preload-06 { background: url(static/6.jpg) no-repeat -9999px -9999px; position:fixed;}
+		#preload-07 { background: url(static/8.jpg) no-repeat -9999px -9999px; position:fixed;}
+		#preload-08 { background: url(static/11.jpg) no-repeat -9999px -9999px; position:fixed;}
+		#preload-09 { background: url(static/12.jpg) no-repeat -9999px -9999px; position:fixed;}
+		#preload-10 { background: url(static/19.jpg) no-repeat -9999px -9999px; position:fixed;}
+		#preload-11 { background: url(static/22.jpg) no-repeat -9999px -9999px; position:fixed;}
+		#preload-12 { background: url(static/24.jpg) no-repeat -9999px -9999px; position:fixed;}
+		#preload-13 { background: url(static/25.jpg) no-repeat -9999px -9999px; position:fixed;}
+		#preload-14 { background: url(static/26.jpg) no-repeat -9999px -9999px;position:fixed;}
+			html, #c-carousel {
+				padding: 0;
+				margin: 0;
+			}
+			body {
+    			background-image:url("static/1.jpg");
+    			background-repeat:no-repeat;
+    			background-attachment:fixed;
+    			background-position:center;
+    			background-size:100%;
+    			-webkit-transition: background-image 1s;
+			}
+			body.scrolled1 {
+    			background-image:url("static/1.jpg");
+    			background-repeat:no-repeat;
+    			background-attachment:fixed;
+    			background-position:center;
+    			background-size:100%;
+    			-webkit-transition: background-image 1s;
+			}
+			body.scrolled2 {
+    			background-image:url("static/2.jpg");
+    			background-repeat:no-repeat;
+    			background-attachment:fixed;
+    			background-position:center;
+    			background-size:100%;
+    			-webkit-transition: background-image 1s;
+			}
+			body.scrolled3 {
+    			background-image:url("static/3.jpg");
+    			background-repeat:no-repeat;
+    			background-attachment:fixed;
+    			background-position:center;
+    			background-size:100%;
+    			-webkit-transition: background-image 1s;
+			}
+			body.scrolled4 {
+    			background-image:url("static/4.jpg");
+    			background-repeat:no-repeat;
+    			background-attachment:fixed;
+    			background-position:center;
+    			background-size:100%;
+    			-webkit-transition: background-image 1s;
+			}
+			body.scrolled5 {
+    			background-image:url("static/22.jpg");
+    			background-repeat:no-repeat;
+    			background-attachment:fixed;
+    			background-position:center;
+    			background-size:100%;
+    			-webkit-transition: background-image 1s;
+			}
+			body.scrolled6 {
+    			background-image:url("static/6.jpg");
+    			background-repeat:no-repeat;
+    			background-attachment:fixed;
+    			background-position:center;
+    			background-size:100%;
+    			-webkit-transition: background-image 1s;
+			}
+			body.scrolled7 {
+    			background-image:url("static/0.jpg");
+    			background-repeat:no-repeat;
+    			background-attachment:fixed;
+    			background-position:center;
+    			background-size:100%;
+    			-webkit-transition: background-image 1s;
+			}
+			body.scrolled8 {
+    			background-image:url("static/8.jpg");
+    			background-repeat:no-repeat;
+    			background-attachment:fixed;
+    			background-position:center;
+    			background-size:100%;
+    			-webkit-transition: background-image 1s;
+			}
+			body.scrolled9 {
+    			background-image:url("static/11.jpg");
+    			background-repeat:no-repeat;
+    			background-attachment:fixed;
+    			background-position:center;
+    			background-size:100%;
+    			-webkit-transition: background-image 1s;
+			}
+			body.scrolled10 {
+    			background-image:url("static/12.jpg");
+    			background-repeat:no-repeat;
+    			background-attachment:fixed;
+    			background-position:center;
+    			background-size:100%;
+    			-webkit-transition: background-image 1s;
+			}
+			body.scrolled11 {
+    			background-image:url("static/26.jpg");
+    			background-repeat:no-repeat;
+    			background-attachment:fixed;
+    			background-position:center;
+    			background-size:100%;
+    			-webkit-transition: background-image 1s;
+			}
+			body.scrolled12 {
+    			background-image:url("static/19.jpg");
+    			background-repeat:no-repeat;
+    			background-attachment:fixed;
+    			background-position:center;
+    			background-size:100%;
+    			-webkit-transition: background-image 1s;
+			}
+			body.scrolled13 {
+    			background-image:url("static/24.jpg");
+    			background-repeat:no-repeat;
+    			background-attachment:fixed;
+    			background-position:center;
+    			background-size:100%;
+    			-webkit-transition: background-image 1s;
+			}
+			body.scrolled14 {
+    			background-image:url("static/25.jpg");
+    			background-repeat:no-repeat;
+    			background-attachment:fixed;
+    			background-position:center;
+    			background-size:100%;
+    			-webkit-transition: background-image 1s;
+			}
+			body.scrolled15 {
+    			background-image:url("static/15.jpg");
+    			background-repeat:no-repeat;
+    			background-attachment:fixed;
+    			background-position:center;
+    			background-size:100%;
+    			-webkit-transition: background-image 1s;
+			}
+			body.scrolled16 {
+    			background-image:url("static/16.jpg");
+    			background-repeat:no-repeat;
+    			background-attachment:fixed;
+    			background-position:center;
+    			background-size:100%;
+    			-webkit-transition: background-image 1s;
+			}
+			body.scrolled17 {
+    			background-image:url("static/17.jpg");
+    			background-repeat:no-repeat;
+    			background-attachment:fixed;
+    			background-position:center;
+    			background-size:100%;
+    			-webkit-transition: background-image 1s;
+			}
+			body.scrolled18 {
+    			background-image:url("static/18.jpg");
+    			background-repeat:no-repeat;
+    			background-attachment:fixed;
+    			background-position:center;
+    			background-size:100%;
+    			-webkit-transition: background-image 1s;
+			}
+			body.scrolled19 {
+    			background-image:url("static/19.jpg");
+    			background-repeat:no-repeat;
+    			background-attachment:fixed;
+    			background-position:center;
+    			background-size:100%;
+    			-webkit-transition: background-image 1s;
+			}
+			body.scrolled20 {
+    			background-image:url("static/20.jpg");
+    			background-repeat:no-repeat;
+    			background-attachment:fixed;
+    			background-position:center;
+    			background-size:100%;
+    			-webkit-transition: background-image 1s;
+			}
+			body.scrolled21 {
+    			background-image:url("static/21.jpg");
+    			background-repeat:no-repeat;
+    			background-attachment:fixed;
+    			background-position:center;
+    			background-size:100%;
+    			-webkit-transition: background-image 1s;
+			}
+			body.scrolled22 {
+    			background-image:url("static/22.jpg");
+    			background-repeat:no-repeat;
+    			background-attachment:fixed;
+    			background-position:center;
+    			background-size:100%;
+    			-webkit-transition: background-image 1s;
+			}
+			body.scrolled23 {
+    			background-image:url("static/23.jpg");
+    			background-repeat:no-repeat;
+    			background-attachment:fixed;
+    			background-position:center;
+    			background-size:100%;
+    			-webkit-transition: background-image 1s;
+			}
+			body.scrolled24 {
+    			background-image:url("static/24.jpg");
+    			background-repeat:no-repeat;
+    			background-attachment:fixed;
+    			background-position:center;
+    			background-size:100%;
+    			-webkit-transition: background-image 1s;
+			}
+			body.scrolled25 {
+    			background-image:url("static/25.jpg");
+    			background-repeat:no-repeat;
+    			background-attachment:fixed;
+    			background-position:center;
+    			background-size:100%;
+    			-webkit-transition: background-image 1s;
+			}
+			div.text-box{
+				font-family: 'Raleway', sans serif;
+				font-weight:100;
+				font-size:35px;
+				line-height:50px;
+				font-color:#FFF;
+				color: #FFF;
+				background: rgba(0,0,0,0.6);
+				width:60%;
+				height:90%;
+				padding-left:20px;
+				padding-right:20px;
+				margin-left:18%;
+				margin-top:2%;
+				position:fixed;
+				transition: all 1s ease-out;
+			}
+			div.text-box-1{
+				font-family: 'Raleway', sans serif;
+				font-weight:100;
+				font-size:40px;
+				line-height:50px;
+				font-color:#FFF;
+				color: #FFF;
+				background: rgba(0,0,0,0.6);
+				width:60%;
+				height:40%;
+				padding-left:20px;
+				padding-right:20px;
+				margin-left:18%;
+				margin-top:15%;
+				position:fixed;
+				transition: all 1s ease-out;
+			}
+			div.text-box-scroll{
+				font-family: 'Raleway', sans serif;
+				font-weight:100;
+				font-size:30px;
+				line-height:40px;
+				font-color:#FFF;
+				color: #FFF;
+				background: rgba(0,0,0,0.6);
+				width:60%;
+				height:90%;
+				margin-left:20%;
+				margin-top:-100%;
+				position:fixed;
+				transition: all 1s ease-in;
+			}
+			div.text-box:hover{
+
+				background: rgba(255,255,255,0.3);
+				color: #000;
+				transition: all 2s ease-in;
+			}
+			div.text-box-1:hover{
+
+				background: rgba(255,255,255,0.3);
+				color: #000;
+				transition: all 2s ease-in;
+			}
+
+			#body-text{
+				font-family: 'Raleway', sans serif;
+				font-weight:100;
+				font-size:60px;
+
+				color: #333;
+			}
+			
+		</style>
+
+	<link rel="stylesheet" type="text/css" href="static/widget009.old.css" media="all"></head>
+	<body data-feedly-mini="yes">
+	<div id="preload-01"><br>&nbsp;</div>
+	<div id="preload-02"><br>&nbsp;</div>
+	<div id="preload-03"><br>&nbsp;</div>
+	<div id="preload-04"><br>&nbsp;</div>
+	<div id="preload-05"><br>&nbsp;</div>
+	<div id="preload-06"><br>&nbsp;</div>
+	<div id="preload-07"><br>&nbsp;</div>
+	<div id="preload-08"><br>&nbsp;</div>
+	<div id="preload-09"><br>&nbsp;</div>
+	<div id="preload-10"><br>&nbsp;</div>
+	<div id="preload-11"><br>&nbsp;</div>
+	<div id="preload-12"><br>&nbsp;</div>
+	<div id="preload-13"><br>&nbsp;</div>
+	<div id="preload-14"><br>&nbsp;</div>
+	<!--<div id="preload-15"><br>&nbsp;</div>
+	<div id="preload-16"><br>&nbsp;</div>
+	<div id="preload-17"><br>&nbsp;</div>
+	<div id="preload-18"><br>&nbsp;</div>
+	<div id="preload-19"><br>&nbsp;</div>
+	<div id="preload-20"><br>&nbsp;</div>
+	<div id="preload-21"><br>&nbsp;</div>
+	<div id="preload-22"><br>&nbsp;</div>
+	<div id="preload-23"><br>&nbsp;</div>
+	<div id="preload-24"><br>&nbsp;</div>
+	<div id="preload-25"><br>&nbsp;</div>
+-->
+	<div class="text-box" id="box1"><br>&nbsp;
+	<br><br>
+	Well Well Well..! <b><font color="#B61" size="30">Happy Birthday Aditi... </font></b><br><br>
+	<b><font color="#228">Too simple to say but sooooo hard to enact !!</font><br><br></b> 
+	No clue as to what I wish to say? Keep <b>scrolling down</b> and enjoy the magic then <font color="#F0F"><b>;)</b></font><br>
+	</div>
+	<div class="text-box-scroll" id="box2"><br>&nbsp;
+	<br>
+	The day when you finally turned <b>21</b>..<br><br>The day that you wait for an year long so that you can make all the people around you get engaged in some act or the other.. <br><br>The day when you make the whole world realize that it's <b><font size="45" color="#7D7">YOUR birthday !</font><br></b>
+	
+	</div>
+	<div class="text-box-scroll" id="box3"><br>&nbsp;<br>
+	The day when you go on and on with thankings for the gifts that <b><font size="45" color="#DD7">You Demand For,</font></b> repeatitively (I still remember that jacket BTW <font color="#F0F"><b>-__-</b></font>).<br><br>
+	I mean Just Imagine, who gets a personalized webpage (or a website, whatever you wish to call this) on his/her birthday??? <font color="#F0F"><b>:O :O</b></font> <br>
+	</div>
+	<div class="text-box-scroll" id="box4"><br>&nbsp;<br>
+	<b>Yoooooouuuu <font color="#987" size="30">Little, irritating, not so sober, peculiar and totally crazy creature...</font></b><br>
+	you make us realize that we all <b><font color="#F00">ACTUALLY</font></b> care for you..<br>
+	Had it been just anyone else in this world, <b>this text wouldn't have existed,</b> forget about the website !!
+	</div>
+	<div class="text-box-scroll" id="box5"><br>&nbsp;<br><br>
+	So you want to get from the start? ok ok ! The story goes like this:<br><br>
+	<b><font color="#F00">Smriti</font></b> calls up..IN <b><font color="#0F0">NOVEMBER</font> (can you believe, we discussed this in NOVEMBER <font color="#F0F">-_____-</font>)</b> and she's like:
+	</div>
+	<div class="text-box-scroll" id="box6"><br>
+	<b>Smriti :</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Hey, birthday party !<br><br>
+	<b>Moon, Chotu, Golu :</b> what birthday, whose birthday?<br><br>
+	<b>Smriti :</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Aditi's birthday on feb 8!<br><br>
+	<b>Moon, Chotu, Golu :&nbsp;&nbsp; -_________________-</b><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; whaaaaaat???<br><br>
+	<b>Smriti :</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; yeah we should plan !!!<br><br>
+	</div>
+	<div class="text-box-scroll" id="box7"><br>
+	And well we started, planning if not deploying the final plan of your birthday!<br><br>
+	We prepared.. And we prepared more.. <br><br>
+	But seriously smriti, The scrapbook... <font color="#987" size="30"><b>OMG&nbsp;&nbsp;</b></font><font color="#F0F"><b>:O :O</b></font><br><br>
+	She just crossed the limits by creating the scrapbook that others can't even imagine of existing.<br><br>
+	</div>
+	<div class="text-box-scroll" id="box8"><br>
+	<font size="30">All to make you feel the most special human being to exist, <b>ALTEAST FOR A DAY</b>.. <br><br>
+	because that's what you are for us Ladki !!<br><br></font><b>
+	<font color="#0F0" size="40">A silly yet special human being </font><font color="#F0F">:p</b></font>
+	</div>
+	
+	<div class="text-box-scroll" id="box9"><br>
+	<font size="30">
+	A silly human being yet so pretentious..<br><br>
+	Makes everyone feel so anxious..<br><br>
+	Furious is what we become on this day..<br><br>
+	All just because it's </font><b><font color="#AFB" size="30">your birthday</font>..</b><br><br>
+	</div>
+	<div class="text-box-scroll" id="box10"><br>
+	<font size="30">
+	It's the day when all our thoughts come out in art..<br>
+	To make ourselves appear like a retard..<br><br>
+	You confused yet such a beautiful being..<br>
+	Happiness on your face is what we always dream of seeing..<br><br></font>
+	</div>
+	<div class="text-box-scroll" id="box11"><br>
+	<font size="30">
+	Retain this bloom, retain that blossom..<br><br>
+	Dont you forget, that state in which you call yourself <b>"awesome"..</b><br><br>
+	It's you who we are celebrating..<br><br>
+	The <b>"festival"</b> which is still in making..<br><br></font>
+	</div>
+	<div class="text-box-scroll" id="box12"><br>
+	<font size="30">Humming around you day and night..<br><br>
+	Who stay like a shadow of yours in the light..<br><br>
+	Love is all that we offer to give..<br><br>
+	<b>Unconditional</b> however, is the way we are supposed to live..<br><br></font>
+	</div>
+	<div class="text-box-scroll" id="box13" style="padding-top:30px;">
+	<font size="30">Even though these feelings may show out never<br><br>
+	But these are what shall sustain forever<br><br>
+	For you who for us is so so special<br><br>
+	<b><font color="#F44">HAPPY BIRTHDAY</font></b> girl, It's you who is 21yrs : <b>OFFICIAL</b> !!<br><br></font>
+	</div>
+	<div class="text-box-scroll" id="box14"><br>
+	<font size="40" color="#F44">
+	Happy birthday SHEELUdiiiii !!!! </font><font color="#FFF" size="40"><b> ;)</b></font><br><br>
+	<a href="#box1" style="color:#8D4">Click here to Start again, btw :p</a></font>
+	</div>
+<!--	<div class="text-box-scroll" id="box15"><br>
+	hey hey hey hey hey...15
+	</div>
+	<div class="text-box-scroll" id="box16"><br>
+	hey hey hey hey hey...16
+	</div>
+	<div class="text-box-scroll" id="box17"><br>
+	hey hey hey hey hey...17
+	</div>
+	<div class="text-box-scroll" id="box18"><br>
+	hey hey hey hey hey...18
+	</div>
+	<div class="text-box-scroll" id="box19"><br>&nbsp;
+	hey hey hey hey hey...19
+	</div>
+	<div class="text-box-scroll" id="box20"><br>&nbsp;
+	hey hey hey hey hey...20
+	</div>
+	<div class="text-box-scroll" id="box21"><br>&nbsp;
+	hey hey hey hey hey...21
+	</div>
+	<div class="text-box-scroll" id="box22"><br>&nbsp;
+	hey hey hey hey hey...22
+	</div>
+	<div class="text-box-scroll" id="box23"><br>&nbsp;
+	hey hey hey hey hey...23
+	</div>
+	<div class="text-box-scroll" id="box24"><br>&nbsp;
+	hey hey hey hey hey...24
+	</div>
+	<div class="text-box-scroll" id="box25"><br>&nbsp;
+	hey hey hey hey hey...25
+	</div>-->
+<!--	<audio autoplay>
+  <source src="song.mp3" type="audio/mpeg">
+</audio>
+		<div id="wrapper">
+			<div id="inner">
+				<div class="caroufredsel_wrapper" style="display: block; text-align: start; float: none; position: relative; top: auto; right: auto; bottom: auto; left: auto; z-index: auto; width: 600px; height: 400px; margin: 0px; overflow: hidden;"><div id="carousel" style="text-align: left; float: none; position: absolute; top: 0px; right: auto; bottom: auto; left: 0px; margin: 0px; width: 5400px; height: 100px; opacity: 1; z-index: auto;">	
+					
+				<img src="randomimage.jpg" alt="rally1" width="600" height="400" border="0">
+				<img src="static/rally1.jpg" alt="rally1" width="600" height="400" border="0">
+				<img src="randomimage.jpg" alt="rally1" width="600" height="400" border="0">
+				<img src="static/rally2.jpg" alt="rally2" width="600" height="400" border="0">
+				<img src="randomimage.jpg" alt="rally3" width="600" height="400" border="0">
+				<img src="static/rally3.jpg" alt="rally4" width="600" height="400" border="0">
+				<img src="randomimage.jpg" alt="rally3" width="600" height="400" border="0">
+				<img src="static/rally4.jpg" alt="rally4" width="600" height="400" border="0">
+				<img src="randomimage.jpg" alt="rally3" width="600" height="400" border="0">
+				<img src="static/rally1.jpg" alt="rally4" width="600" height="400" border="0">
+				<img src="randomimage.jpg" alt="rally3" width="600" height="400" border="0">
+				<img src="static/rally2.jpg" alt="rally4" width="600" height="400" border="0">
+				<img src="randomimage.jpg" alt="rally3" width="600" height="400" border="0">
+				<img src="static/rally3.jpg" alt="rally4" width="600" height="400" border="0">
+				<img src="randomimage.jpg" alt="rally3" width="600" height="400" border="0">
+				<img src="static/rally4.jpg" alt="rally4" width="600" height="400" border="0">
+				</div></div>
+				<div id="navi" style="bottom: -60px;">
+					<div id="timer" style="width: 93%;"></div>
+					<a id="prev" href="http://coolcarousels.frebsite.nl/c/21/#" class="" style="display: block;"></a>
+					<a id="play" href="http://coolcarousels.frebsite.nl/c/21/#" class="" style="display: block;"></a>
+					<a id="next" href="http://coolcarousels.frebsite.nl/c/21/#" class="" style="display: block;"></a>
+				</div>
+			</div>
+		</div>-->
+
+		<div id="body-text"><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br><br>&nbsp;<br>
+		
+		
+		</div> <!-- /c-carousel -->
+		</body></html>
